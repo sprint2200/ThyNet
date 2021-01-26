@@ -11,12 +11,19 @@ ThyNet is designed for malignant thyroid classification. It is essentially a ens
 # Usage
 ## Depend on the environment
 pytorch>=1.5.0
+
 torchvision>=0.6.0
+
 numpy>=1.17.0
+
 pillow>=7.1.2
+
 opencv>=4.2.0
+
 scikit-learn>=0.23.1
+
 matplotlib>=3.2.1
+
 
 ## Train processing
 ### 1. Prepare the data
