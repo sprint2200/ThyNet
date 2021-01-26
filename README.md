@@ -2,7 +2,7 @@
 This repository contains source code for the paper "Deep learning-based artificial intelligence assists in thyroid nodule management: a multi-center, diagnostic study"
 
 # Citation
-If you find DenseNet useful in your research, please consider citing:
+If you find it useful in your research, please consider citing:
 "Deep learning-based artificial intelligence assists in thyroid nodule management: a multi-center, diagnostic study"
 
 # Introduction
