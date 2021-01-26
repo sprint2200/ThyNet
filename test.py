@@ -69,9 +69,9 @@ def output(model, data):
 
 
 def get_result(image):
-    result = output(model_res, image) * 1/3 + output(model_rxt, image) * 1/3 + output(model_den, image) * 1/3
+    result = output(model_res, image)  + output(model_rxt, image) + output(model_den, image)
 
-    if result >= 0.5:
+    if result >= 2:
         return 1
     else:
         return 0
