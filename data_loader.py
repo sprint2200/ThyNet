@@ -5,6 +5,8 @@ import os
 def load_training(root_path, dir, batch_size, kwargs):
     transform = transforms.Compose(
         [transforms.Resize([256, 256]),
+         transforms.RandomRotation([-15, 15]),
+         transforms.ColorJitter(),
          transforms.RandomCrop(224),
          transforms.RandomHorizontalFlip(),
          transforms.ToTensor()
