@@ -9,6 +9,7 @@ def load_training(root_path, dir, batch_size, kwargs):
          transforms.ColorJitter(),
          transforms.RandomCrop(224),
          transforms.RandomHorizontalFlip(),
+         transforms.RandomVerticalFlip(),
          transforms.ToTensor()
          ])
     data = datasets.ImageFolder(root=os.path.join(root_path, dir), transform=transform)
