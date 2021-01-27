@@ -34,7 +34,7 @@ arg = parser.parse_args()
 os.environ["CUDA_VISIBLE_DEVICES"] = arg.gpu
 # Training settings
 batch_size = arg.batch_size
-epochs = 400
+epochs = 500
 lr = 0.01
 momentum = 0.9
 no_cuda = False
